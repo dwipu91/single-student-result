@@ -7,10 +7,6 @@
     box-sizing: border-box;
     font-family: 'Noto Sans', sans-serif;
 }
-
-.box img {
-    width: 100%;
-}
 body{
     background: pink;
     text-align: center;
@@ -19,7 +15,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    
+}
 
+.box img{
+    height: 20rem;
+    margin: auto;
+    display: none;
+    transition: all ease .3s;
 }
